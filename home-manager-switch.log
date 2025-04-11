@@ -1,0 +1,45 @@
+warning: Git tree '/home/enderman/nixos' is dirty
+warning: Git tree '/home/enderman/nixos' is dirty
+warning: Git tree '/home/enderman/nixos' is dirty
+warning: Git tree '/home/enderman/nixos' is dirty
+these 7 derivations will be built:
+  /nix/store/6wj6cj8gxbjy0zdkzycmwz86n61k8hwx-hm_.zshenv.drv
+  /nix/store/h1lv7hgn2qsdbl4ma5h2dz3mq5hy7v7x-home-manager-path.drv
+  /nix/store/alrffh46yvzalh9rhphsa0ri6jlm2qgn-activation-script.drv
+  /nix/store/pjm2ginawaa7sn7qczq2ca4g0w0nqj7v-hm_homeenderman.cacheohmyzsh.keep.drv
+  /nix/store/ysl2bibh3hiilrfyxqbgy4a9r5da3ajj-hm_.zshrc.drv
+  /nix/store/q5gpa0rxqd32amy4hs2k73nnpnh18n8c-home-manager-files.drv
+  /nix/store/7yp7djqd5d6vg2j8v6rqqpngdd1i40d6-home-manager-generation.drv
+these 3 paths will be fetched (2.77 MiB download, 6.99 MiB unpacked):
+  /nix/store/lii6pz6kzzlhf9hyfbsq6wqaxxd08wwf-oh-my-zsh-2025-04-03
+  /nix/store/fkn9nc4kc5qsjf0vj30ak6zifdra9kz3-zsh-autosuggestions-0.7.1
+  /nix/store/4i106x14nzsl2wslv549mvrw1gjzkqm4-zsh-syntax-highlighting-0.8.0
+copying path '/nix/store/fkn9nc4kc5qsjf0vj30ak6zifdra9kz3-zsh-autosuggestions-0.7.1' from 'https://cache.nixos.org'...
+copying path '/nix/store/4i106x14nzsl2wslv549mvrw1gjzkqm4-zsh-syntax-highlighting-0.8.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/lii6pz6kzzlhf9hyfbsq6wqaxxd08wwf-oh-my-zsh-2025-04-03' from 'https://cache.nixos.org'...
+building '/nix/store/pjm2ginawaa7sn7qczq2ca4g0w0nqj7v-hm_homeenderman.cacheohmyzsh.keep.drv'...
+building '/nix/store/ysl2bibh3hiilrfyxqbgy4a9r5da3ajj-hm_.zshrc.drv'...
+building '/nix/store/6wj6cj8gxbjy0zdkzycmwz86n61k8hwx-hm_.zshenv.drv'...
+building '/nix/store/h1lv7hgn2qsdbl4ma5h2dz3mq5hy7v7x-home-manager-path.drv'...
+building '/nix/store/q5gpa0rxqd32amy4hs2k73nnpnh18n8c-home-manager-files.drv'...
+building '/nix/store/alrffh46yvzalh9rhphsa0ri6jlm2qgn-activation-script.drv'...
+building '/nix/store/7yp7djqd5d6vg2j8v6rqqpngdd1i40d6-home-manager-generation.drv'...
+Starting Home Manager activation
+Activating checkFilesChanged
+Activating checkLinkTargets
+Activating writeBoundary
+Creating new profile generation
+Activating installPackages
+replacing old 'home-manager-path'
+installing 'home-manager-path'
+building '/nix/store/bcqvlvfydvsha1bnj1837g1nhwh2lqhi-user-environment.drv'...
+Activating linkGeneration
+Cleaning up orphan links from /home/enderman
+Creating home file links in /home/enderman
+Activating onFilesChange
+Activating reloadSystemd
+warning: Git tree '/home/enderman/nixos' is dirty
+
+There are 201 unread and relevant news items.
+Read them by running the command "home-manager news".
+
