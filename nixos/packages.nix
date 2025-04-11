@@ -52,6 +52,7 @@
 
     # IntelliJ
     jetbrains.idea-community-bin
+    xorg.libXcursor
 
     # Note Taking
     obsidian
