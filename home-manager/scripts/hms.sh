@@ -65,7 +65,4 @@ current=$(home-manager generations | grep -c home-manager-generation)
 # Commit all changes witih the generation metadata
 git commit -m "Home-Manager-Generation: $current"
 
-# Notify all OK!
-notify-send -e "Home Manager Switch OK!" --icon=software-update-available --expire-time=4000
-
 popd &>/dev/null

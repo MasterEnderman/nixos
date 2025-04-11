@@ -32,6 +32,7 @@
     unzip
     wget
     zip
+    zsh
 
     # DS Emulator
     desmume
@@ -90,6 +91,7 @@
   ];
 
   fonts.packages = with pkgs; [
-    jetbrains-mono
+    nerd-fonts.symbols-only
+    nerd-fonts.jetbrains-mono
   ];
 }
